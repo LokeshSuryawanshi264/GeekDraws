@@ -1,0 +1,97 @@
+@media (max-width:768px){
+    
+}
+html{
+    font-size: 16px;
+}
+*{
+    font-family:sans-serif;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.978);
+    /* scrollbar-width: none;  */
+}
+
+
+
+nav ul{
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+    margin-left:4rem;
+}
+nav li{
+     list-style-type: none;
+}
+nav li a{
+   
+
+    font-size: 1.6rem;
+    font-family: sans-serif;
+   font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.nav :hover{
+    color: #FF4400; 
+    
+    transition: all 0.3s ease;
+}
+.Welcome{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0.4rem;
+
+}
+.Welcomediv{
+    margin-left: 6rem;
+    max-width:80rem;
+    margin-top: 6rem;
+}
+.gap{
+    height: 40rem;
+}
+.art img{
+    height: 35rem;
+    margin-left:8rem ;
+}
+/* .one{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    font-family: sans-serif;
+    font-weight: bold;  /* justify-content: space-between;  */
+ 
+.art img{
+    border: 0.1rem solid black;
+    border-radius: 0.1rem;
+    
+}
+/* .two{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10rem;
+    
+
+} */
+.art div{
+    
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10rem;
+    
+
+}
